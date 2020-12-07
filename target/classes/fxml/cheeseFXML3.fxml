@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dynamiccheeseapp.CheeseFXMLController">
+   <children>
+      <Group fx:id="LG1" layoutX="725.0" layoutY="80.0" opacity="0.25">
+         <children>
+            <Line fx:id="line1" endX="15.0" endY="540.0" fill="#8f8f8f" opacity="0.25" startX="15.0" startY="40.0" stroke="#a1a1a1b2" />
+            <Label fx:id="LL1" alignment="CENTER" contentDisplay="CENTER" layoutY="15.0" prefWidth="30.0" text="Line1" textAlignment="CENTER" textFill="#868686">
+               <font>
+                  <Font name="Euphemia UCAS" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="LG2" layoutX="725.0" layoutY="80.0" opacity="0.25">
+         <children>
+            <Line fx:id="line2" endX="15.0" endY="540.0" fill="#8f8f8f" opacity="0.25" startX="15.0" startY="40.0" stroke="#a1a1a1b2" />
+            <Label fx:id="LL2" alignment="CENTER" contentDisplay="CENTER" layoutY="15.0" prefWidth="30.0" text="Line2" textAlignment="CENTER" textFill="#868686">
+               <font>
+                  <Font name="Euphemia UCAS" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="LG3" layoutX="725.0" layoutY="80.0" opacity="0.25">
+         <children>
+            <Line fx:id="line3" endX="15.0" endY="540.0" fill="#8f8f8f" opacity="0.25" startX="15.0" startY="40.0" stroke="#a1a1a1b2" />
+            <Label fx:id="LL3" alignment="CENTER" contentDisplay="CENTER" layoutY="15.0" prefWidth="30.0" text="Line3" textAlignment="CENTER" textFill="#868686">
+               <font>
+                  <Font name="Euphemia UCAS" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="LG4" layoutX="725.0" layoutY="80.0" opacity="0.25">
+         <children>
+            <Line fx:id="line4" endX="15.0" endY="540.0" fill="#8f8f8f" opacity="0.25" startX="15.0" startY="40.0" stroke="#a1a1a1b2" />
+            <Label fx:id="LL4" alignment="CENTER" contentDisplay="CENTER" layoutY="15.0" prefWidth="30.0" text="Line4" textAlignment="CENTER" textFill="#868686">
+               <font>
+                  <Font name="Euphemia UCAS" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="LG5" layoutX="725.0" layoutY="80.0" opacity="0.25">
+         <children>
+            <Line fx:id="line5" endX="15.0" endY="540.0" fill="#8f8f8f" opacity="0.25" startX="15.0" startY="40.0" stroke="#a1a1a1b2" />
+            <Label fx:id="LL5" alignment="CENTER" contentDisplay="CENTER" layoutY="15.0" prefWidth="30.0" text="Line5" textAlignment="CENTER" textFill="#868686">
+               <font>
+                  <Font name="Euphemia UCAS" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="LG6" layoutX="725.0" layoutY="80.0" opacity="0.25">
+         <children>
+            <Line fx:id="line6" endX="15.0" endY="540.0" fill="#8f8f8f" opacity="0.25" startX="15.0" startY="40.0" stroke="#a1a1a1b2" />
+            <Label fx:id="LL6" alignment="CENTER" contentDisplay="CENTER" layoutY="15.0" prefWidth="30.0" text="Line6" textAlignment="CENTER" textFill="#868686">
+               <font>
+                  <Font name="Euphemia UCAS" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="LG1S" layoutX="725.0" layoutY="80.0" opacity="0.25">
+         <children>
+            <Line fx:id="line1S" endX="15.0" endY="540.0" fill="#8f8f8f" opacity="0.25" startX="15.0" startY="40.0" stroke="#a1a1a1b2" />
+            <Label fx:id="LL1S" alignment="CENTER" contentDisplay="CENTER" layoutY="15.0" prefWidth="30.0" text="Line1" textAlignment="CENTER" textFill="#868686">
+               <font>
+                  <Font name="Euphemia UCAS" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="LG2S" layoutX="725.0" layoutY="80.0" opacity="0.25">
+         <children>
+            <Line fx:id="line2S" endX="15.0" endY="540.0" fill="#8f8f8f" opacity="0.25" startX="15.0" startY="40.0" stroke="#a1a1a1b2" />
+            <Label fx:id="LL2S" alignment="CENTER" contentDisplay="CENTER" layoutY="15.0" prefWidth="30.0" text="Line2" textAlignment="CENTER" textFill="#868686">
+               <font>
+                  <Font name="Euphemia UCAS" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="LG3S" layoutX="725.0" layoutY="80.0" opacity="0.25">
+         <children>
+            <Line fx:id="line3S" endX="15.0" endY="540.0" fill="#8f8f8f" opacity="0.25" startX="15.0" startY="40.0" stroke="#a1a1a1b2" />
+            <Label fx:id="LL3S" alignment="CENTER" contentDisplay="CENTER" layoutY="15.0" prefWidth="30.0" text="Line3" textAlignment="CENTER" textFill="#868686">
+               <font>
+                  <Font name="Euphemia UCAS" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="LG4S" layoutX="725.0" layoutY="80.0" opacity="0.25">
+         <children>
+            <Line fx:id="line4S" endX="15.0" endY="540.0" fill="#8f8f8f" opacity="0.25" startX="15.0" startY="40.0" stroke="#a1a1a1b2" />
+            <Label fx:id="LL4S" alignment="CENTER" contentDisplay="CENTER" layoutY="15.0" prefWidth="30.0" text="Line4" textAlignment="CENTER" textFill="#868686">
+               <font>
+                  <Font name="Euphemia UCAS" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="LG5S" layoutX="725.0" layoutY="80.0" opacity="0.25">
+         <children>
+            <Line fx:id="line5S" endX="15.0" endY="540.0" fill="#8f8f8f" opacity="0.25" startX="15.0" startY="40.0" stroke="#a1a1a1b2" />
+            <Label fx:id="LL5S" alignment="CENTER" contentDisplay="CENTER" layoutY="15.0" prefWidth="30.0" text="Line5" textAlignment="CENTER" textFill="#868686">
+               <font>
+                  <Font name="Euphemia UCAS" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="LG6S" layoutX="725.0" layoutY="80.0" opacity="0.25">
+         <children>
+            <Line fx:id="line6S" endX="15.0" endY="540.0" fill="#8f8f8f" opacity="0.25" startX="15.0" startY="40.0" stroke="#a1a1a1b2" />
+            <Label fx:id="LL6S" alignment="CENTER" contentDisplay="CENTER" layoutY="15.0" prefWidth="30.0" text="Line6" textAlignment="CENTER" textFill="#868686">
+               <font>
+                  <Font name="Euphemia UCAS" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Label layoutX="46.0" layoutY="14.0" prefHeight="40.0" prefWidth="524.0" text="Most Consumed Cheeses in the US">
+         <font>
+            <Font name="Euphemia UCAS" size="28.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="40.0" layoutY="60.0" prefHeight="31.0" prefWidth="175.0" text="Cheese Type">
+         <font>
+            <Font name="Euphemia UCAS" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="284.0" layoutY="60.0" prefHeight="31.0" prefWidth="333.0" text="Pounds Consumed Per Capita">
+         <font>
+            <Font name="Euphemia UCAS" size="22.0" />
+         </font>
+      </Label>
+      <Line endX="784.0" layoutX="107.0" layoutY="130.0" startX="-107.0" />
+      <Line endX="40.0" endY="585.0" layoutX="220.0" layoutY="35.0" startX="40.0" startY="42.5" />
+      <Label fx:id="yearLabel" alignment="CENTER" layoutX="733.0" layoutY="510.0" prefHeight="58.0" prefWidth="144.0" text="Year">
+         <font>
+            <Font name="Euphemia UCAS" size="48.0" />
+         </font>
+      </Label>
+      <Group fx:id="group1" layoutX="15.0" layoutY="150.0">
+         <children>
+            <Label fx:id="name1" alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="60.0" prefHeight="45.0" prefWidth="170.0" text="Cheddar" textAlignment="RIGHT">
+               <font>
+                  <Font name="Euphemia UCAS" size="24.0" />
+               </font>
+            </Label>
+            <Rectangle fx:id="rect1" arcHeight="5.0" arcWidth="5.0" fill="#ffa721" height="45.0" layoutX="275.0" stroke="BLACK" strokeType="INSIDE" width="450.0" />
+            <Label fx:id="num1" layoutX="750.0" prefHeight="45.0" text="Number 1">
+               <font>
+                  <Font name="Euphemia UCAS" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="iv1" fitHeight="50.0" fitWidth="80.0" layoutX="60.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../cheeseimages/cheddar.png" />
+               </image></ImageView>
+         </children>
+      </Group>
+      <Group fx:id="group2" layoutX="15.0" layoutY="210.0">
+         <children>
+            <Label fx:id="name2" alignment="CENTER_RIGHT" layoutX="60.0" prefHeight="45.0" prefWidth="170.0" text="Processed" textAlignment="RIGHT">
+               <font>
+                  <Font name="Euphemia UCAS" size="24.0" />
+               </font>
+            </Label>
+            <Rectangle fx:id="rect2" arcHeight="5.0" arcWidth="5.0" fill="#fff500" height="45.0" layoutX="275.0" stroke="BLACK" strokeType="INSIDE" width="260.0" />
+            <Label fx:id="num2" layoutX="450.0" prefHeight="45.0" text="Number 2">
+               <font>
+                  <Font name="Euphemia UCAS" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="iv2" fitHeight="50.0" fitWidth="80.0" layoutX="52.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../cheeseimages/processedcheese.png" />
+               </image></ImageView>
+         </children>
+      </Group>
+      <Group fx:id="group3" layoutX="15.0" layoutY="270.0">
+         <children>
+            <Label fx:id="name3" alignment="CENTER_RIGHT" layoutX="60.0" prefHeight="45.0" prefWidth="170.0" text="Jack" textAlignment="RIGHT">
+               <font>
+                  <Font name="Euphemia UCAS" size="24.0" />
+               </font>
+            </Label>
+            <Rectangle fx:id="rect3" arcHeight="5.0" arcWidth="5.0" fill="#fffeee" height="45.0" layoutX="275.0" stroke="BLACK" strokeType="INSIDE" width="260.0" />
+            <Label fx:id="num3" layoutX="450.0" prefHeight="45.0" text="Number 3">
+               <font>
+                  <Font name="Euphemia UCAS" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="iv3" fitHeight="50.0" fitWidth="80.0" layoutX="83.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../cheeseimages/jackcheese.png" />
+               </image></ImageView>
+         </children>
+      </Group>
+      <Group fx:id="group4" layoutX="15.0" layoutY="330.0">
+         <children>
+            <Label fx:id="name4" alignment="CENTER_RIGHT" layoutX="60.0" prefHeight="45.0" prefWidth="170.0" text="Mozzarella" textAlignment="RIGHT">
+               <font>
+                  <Font name="Euphemia UCAS" size="24.0" />
+               </font>
+            </Label>
+            <Rectangle fx:id="rect4" arcHeight="5.0" arcWidth="5.0" fill="#ffffe4db" height="45.0" layoutX="275.0" stroke="BLACK" strokeType="INSIDE" width="260.0" />
+            <Label fx:id="num4" layoutX="450.0" prefHeight="45.0" text="Number 4">
+               <font>
+                  <Font name="Euphemia UCAS" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="iv4" fitHeight="50.0" fitWidth="80.0" layoutX="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../cheeseimages/mozzarella.png" />
+               </image></ImageView>
+         </children>
+      </Group>
+      <Group fx:id="group5" layoutX="15.0" layoutY="390.0">
+         <children>
+            <Label fx:id="name5" alignment="CENTER_RIGHT" layoutX="60.0" prefHeight="45.0" prefWidth="170.0" text="Swiss" textAlignment="RIGHT">
+               <font>
+                  <Font name="Euphemia UCAS" size="24.0" />
+               </font>
+            </Label>
+            <Rectangle fx:id="rect5" arcHeight="5.0" arcWidth="5.0" fill="#fcffc3" height="45.0" layoutX="275.0" stroke="BLACK" strokeType="INSIDE" width="260.0" />
+            <Label fx:id="num5" layoutX="450.0" prefHeight="45.0" text="Number 5">
+               <font>
+                  <Font name="Euphemia UCAS" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="iv5" fitHeight="50.0" fitWidth="80.0" layoutX="96.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../cheeseimages/swisscheese.png" />
+               </image></ImageView>
+         </children>
+      </Group>
+      <Group fx:id="group6" layoutX="15.0" layoutY="450.0">
+         <children>
+            <Label fx:id="name6" alignment="CENTER_RIGHT" layoutX="60.0" prefHeight="45.0" prefWidth="170.0" text="Cream Cheese" textAlignment="RIGHT">
+               <font>
+                  <Font name="Euphemia UCAS" size="24.0" />
+               </font>
+            </Label>
+            <Rectangle fx:id="rect6" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="45.0" layoutX="275.0" stroke="BLACK" strokeType="INSIDE" width="260.0" />
+            <Label fx:id="num6" layoutX="450.0" prefHeight="45.0" text="Number 6">
+               <font>
+                  <Font name="Euphemia UCAS" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="iv6" fitHeight="50.0" fitWidth="80.0" layoutX="5.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../cheeseimages/creamcheese.png" />
+               </image></ImageView>
+         </children>
+      </Group>
+      <Group fx:id="group7" layoutX="15.0" layoutY="510.0">
+         <children>
+            <Label fx:id="name7" alignment="CENTER_RIGHT" layoutX="60.0" prefHeight="45.0" prefWidth="170.0" text="Muenster" textAlignment="RIGHT">
+               <font>
+                  <Font name="Euphemia UCAS" size="24.0" />
+               </font>
+            </Label>
+            <Rectangle fx:id="rect7" arcHeight="5.0" arcWidth="5.0" fill="#ff8300" height="45.0" layoutX="275.0" stroke="BLACK" strokeType="INSIDE" width="260.0" />
+            <Label fx:id="num7" layoutX="450.0" prefHeight="45.0" text="Number 7">
+               <font>
+                  <Font name="Euphemia UCAS" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="iv7" fitHeight="50.0" fitWidth="80.0" layoutX="48.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../cheeseimages/muenster.png" />
+               </image></ImageView>
+         </children>
+      </Group>
+      <Group fx:id="group8" layoutX="15.0" layoutY="570.0">
+         <children>
+            <Label fx:id="name8" alignment="CENTER_RIGHT" layoutX="60.0" prefHeight="45.0" prefWidth="170.0" text="Blue" textAlignment="RIGHT">
+               <font>
+                  <Font name="Euphemia UCAS" size="24.0" />
+               </font>
+            </Label>
+            <Rectangle fx:id="rect8" arcHeight="5.0" arcWidth="5.0" fill="#7292b9" height="45.0" layoutX="275.0" stroke="BLACK" strokeType="INSIDE" width="260.0" />
+            <Label fx:id="num8" layoutX="450.0" prefHeight="45.0" text="Number 8">
+               <font>
+                  <Font name="Euphemia UCAS" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="iv8" fitHeight="50.0" fitWidth="80.0" layoutX="111.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../cheeseimages/bluecheese.png" />
+               </image></ImageView>
+         </children>
+      </Group>
+      <Label fx:id="caveat" layoutX="191.0" layoutY="623.0" prefHeight="45.0" prefWidth="564.0" text="* Between 1998 and 2009, the USDA and National Agricultural Statistics Service did not report blue cheese production to avoid disclosing data from individual operations" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Euphemia UCAS" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="678.0" prefHeight="17.0" prefWidth="711.0" text="Source: &quot;https://www.ers.usda.gov/data-products/dairy-data/&quot; ; All images are public domain">
+         <font>
+            <Font name="Euphemia UCAS" size="10.0" />
+         </font>
+      </Label>
+      <Group fx:id="cowgroup" layoutX="575.0" layoutY="275.0">
+         <children>
+            <ImageView fx:id="cow" fitHeight="125.0" fitWidth="200.0" layoutX="115.0" layoutY="85.0" onDragEntered="#makeSmaller" onMouseClicked="#startRunCow" onMouseDragEntered="#makeSmaller" onMouseDragExited="#makeLarger" onMouseDragOver="#makeLarger" onMouseDragReleased="#makeLarger" onMouseExited="#makeLarger" onMousePressed="#makeSmaller" onMouseReleased="#makeLarger" pickOnBounds="true" preserveRatio="true" style="-fx-cursor: hand;" />
+            <ImageView fx:id="cowbub" fitHeight="112.0" fitWidth="227.0" pickOnBounds="true" preserveRatio="true" />
+            <Label fx:id="cowtext" alignment="CENTER_RIGHT" layoutX="15.0" layoutY="1.0" prefHeight="80.0" prefWidth="125.0" text="Click Me To Begin!" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Gill Sans" size="26.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Label layoutX="798.0" layoutY="7.0" text="Sam Nishita, 2020">
+         <font>
+            <Font name="Euphemia UCAS" size="10.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
